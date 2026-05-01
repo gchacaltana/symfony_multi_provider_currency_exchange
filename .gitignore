@@ -1,0 +1,41 @@
+# AI planning and development context
+.ai-context/
+
+###> Symfony ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< Symfony ###
+
+###> PHP ###
+/bin/.phpunit
+*.cache
+*.log
+###< PHP ###
+
+###> PHPUnit ###
+/phpunit.xml
+/.phpunit.cache/
+/.phpunit.result.cache
+###< PHPUnit ###
+
+###> Composer ###
+/composer.lock
+###< Composer ###
+
+###> Docker ###
+docker-compose.override.yml
+###< Docker ###
+
+###> IDE / Editors ###
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+###< IDE / Editors ###
