@@ -1,6 +1,7 @@
 # AI planning and development context
 .ai-context/
 
+
 ###> PHP ###
 *.cache
 *.log
